@@ -4,8 +4,7 @@ groups:
   docs-team:
     conditions:
       files:
-        - "docs/*"  # review if edited anything in docs
-        - "*.md"  # review if edited any markdown files
+        - "*.md"  
     required: 1
     users:
       - harsha-harsha
