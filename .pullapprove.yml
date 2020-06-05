@@ -1,0 +1,17 @@
+groups:
+  docs-team:
+    conditions:
+      files:
+        - "docs/*"  # review if edited anything in docs
+        - "*.md"  # review if edited any markdown files
+    required: 1
+    users:
+      - harsha-harsha
+
+  pullapprove-admins:
+    conditions:
+      files:
+        - ".pullapprove.yml"  # great for ensuring pullapprove settings are approved
+    required: 1
+    users:
+      - harsha-harsha
