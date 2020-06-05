@@ -1,18 +1,9 @@
 version: 3
-
 groups:
   docs-team:
     conditions:
       files:
         - "*.md"  
-    required: 1
-    users:
-      - harsha-harsha
-
-  pullapprove-admins:
-    conditions:
-      files:
-        - ".pullapprove.yml"  # great for ensuring pullapprove settings are approved
     required: 1
     users:
       - harsha-harsha
